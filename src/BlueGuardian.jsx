@@ -40,12 +40,13 @@ function BlueGuardian() {
         <span className="badge">FEATURED PROP FIRM</span>
 
         <h1>
-          Blue <span>Guardian</span>
+          Blue Guardian <span>Prop Firm & Funded Trading Accounts</span>
         </h1>
 
         <p>
-          Explore Blue Guardian funding models, account options,
-          drawdown rules and payout structures in one place.
+          Explore Blue Guardian funded trading accounts, evaluation
+          programs, Instant Funding, 1-Step and 2-Step challenges,
+          drawdown rules, profit splits and payout options in one place.
         </p>
 
         <a
@@ -63,8 +64,8 @@ function BlueGuardian() {
           <span>FUNDING MODELS</span>
           <h3>4 Options</h3>
           <p>
-            Instant, 1-Step, 2-Step Standard and 2-Step Pro options
-            are currently listed for CFD funding.
+            Blue Guardian currently lists Instant, 1-Step, 2-Step
+            Standard and 2-Step Pro funding options for traders.
           </p>
         </div>
 
@@ -72,8 +73,8 @@ function BlueGuardian() {
           <span>ACCOUNT SIZES</span>
           <h3>Up to $400K</h3>
           <p>
-            Available account sizes vary depending on the selected
-            funding model.
+            Available Blue Guardian account sizes vary depending on
+            the selected funding model and applicable conditions.
           </p>
         </div>
 
@@ -81,7 +82,8 @@ function BlueGuardian() {
           <span>PROFIT SPLIT</span>
           <h3>Up to 90%</h3>
           <p>
-            Blue Guardian advertises profit splits of up to 90%.
+            Blue Guardian advertises profit splits of up to 90%,
+            depending on the selected program and applicable add-ons.
           </p>
         </div>
 
@@ -89,8 +91,8 @@ function BlueGuardian() {
           <span>MARKETS</span>
           <h3>CFD + Futures</h3>
           <p>
-            Blue Guardian offers both CFD and futures funding
-            programs.
+            Blue Guardian offers CFD and futures funding programs,
+            giving traders multiple ways to access funded trading.
           </p>
         </div>
       </div>
@@ -98,7 +100,13 @@ function BlueGuardian() {
       <div className="blueguardian-plans">
         <span>BLUE GUARDIAN MODELS</span>
 
-        <h2>Compare Funding Models</h2>
+        <h2>Compare Blue Guardian Funding Models</h2>
+
+        <p>
+          Compare Blue Guardian Instant Funding, 1-Step and 2-Step
+          funded trading programs based on evaluation structure,
+          profit targets, drawdown rules and payout schedules.
+        </p>
 
         <div className="blue-plan-cards">
           {plans.map((plan, index) => (
@@ -157,9 +165,9 @@ function BlueGuardian() {
               <h3>Instant Funding</h3>
 
               <p>
-                The Instant model provides access without a traditional
-                evaluation and supports on-demand payouts under its
-                applicable rules.
+                Blue Guardian Instant Funding provides access without
+                a traditional evaluation and supports on-demand
+                payouts under its applicable account rules.
               </p>
             </div>
           </div>
@@ -171,8 +179,9 @@ function BlueGuardian() {
               <h3>1-Step Challenge</h3>
 
               <p>
-                A single-phase evaluation designed for traders who
-                prefer a simpler route to funding.
+                The Blue Guardian 1-Step challenge uses a single-phase
+                evaluation structure for traders who prefer a simpler
+                route to a funded trading account.
               </p>
             </div>
           </div>
@@ -181,11 +190,12 @@ function BlueGuardian() {
             <div className="feature-icon">03</div>
 
             <div>
-              <h3>2-Step Options</h3>
+              <h3>2-Step Funding Programs</h3>
 
               <p>
-                Blue Guardian lists Standard and Pro two-phase models,
-                giving traders different evaluation structures.
+                Blue Guardian offers Standard and Pro two-phase
+                evaluation models, giving traders different paths
+                to qualify for funded trading capital.
               </p>
             </div>
           </div>
@@ -209,7 +219,14 @@ function BlueGuardian() {
       <div className="blue-payout-section">
         <span>PAYOUTS & RULES</span>
 
-        <h2>Important Things To Know</h2>
+        <h2>Blue Guardian Payouts & Trading Rules</h2>
+
+        <p>
+          Understanding payout conditions and risk rules is important
+          before choosing a Blue Guardian funded trading account.
+          Requirements can differ between Instant, 1-Step and 2-Step
+          programs.
+        </p>
 
         <div className="blue-payout-grid">
           <div>
@@ -226,7 +243,7 @@ function BlueGuardian() {
 
             <p>
               The Instant model supports on-demand payout requests
-              under its withdrawal conditions.
+              under its applicable withdrawal conditions.
             </p>
           </div>
 
@@ -250,10 +267,55 @@ function BlueGuardian() {
         </div>
 
         <p className="blue-payout-note">
-          Rules differ between models and account sizes. Always check
-          the exact Blue Guardian rule page for the account you intend
-          to purchase before trading.
+          Blue Guardian rules differ between models and account sizes.
+          Always check the exact official rules for the account you
+          intend to purchase before trading.
         </p>
+      </div>
+
+      <div className="blueguardian-faq">
+        <span>BLUE GUARDIAN FAQ</span>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div className="faq-list">
+          <div>
+            <h3>What is Blue Guardian?</h3>
+            <p>
+              Blue Guardian is a proprietary trading firm offering
+              funded trading programs, including Instant Funding,
+              1-Step and 2-Step models.
+            </p>
+          </div>
+
+          <div>
+            <h3>What Blue Guardian funding programs are available?</h3>
+            <p>
+              The listed programs include Instant, 1-Step, 2-Step
+              Standard and 2-Step Pro. Availability and conditions
+              can vary over time.
+            </p>
+          </div>
+
+          <div>
+            <h3>What is the Blue Guardian profit split?</h3>
+            <p>
+              Blue Guardian advertises profit splits of up to 90%.
+              The exact split depends on the selected program and
+              applicable conditions or add-ons.
+            </p>
+          </div>
+
+          <div>
+            <h3>Can Blue Guardian rules change?</h3>
+            <p>
+              Yes. Prices, account sizes, drawdown calculations,
+              payout requirements and other trading conditions can
+              change. Traders should verify the latest official terms
+              before purchasing an account.
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="fundingpips-warning">
@@ -262,8 +324,9 @@ function BlueGuardian() {
         <p>
           Blue Guardian rules, prices, available account sizes,
           drawdown calculations, payout requirements and promotions
-          can change. Always verify the latest official terms before
-          purchasing an account.
+          can change. This page is provided for comparison and
+          educational purposes. Always verify the latest official
+          Blue Guardian terms before purchasing or trading an account.
         </p>
       </div>
 
@@ -277,8 +340,9 @@ function BlueGuardian() {
         </h2>
 
         <p>
-          Compare the available funding models and choose the
-          structure that fits your trading style.
+          Compare Blue Guardian funding models, account structures,
+          trading rules and payout conditions, then choose the
+          program that fits your trading style.
         </p>
 
         <a
