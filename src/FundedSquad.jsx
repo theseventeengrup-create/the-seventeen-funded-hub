@@ -32,12 +32,13 @@ function FundedSquad() {
         <span className="badge">TRADER PICK</span>
 
         <h1>
-          Funded <span>Squad</span>
+          Funded Squad <span>Prop Firm & Funded Trading Accounts</span>
         </h1>
 
         <p>
-          Explore Funded Squad funding options, account structures,
-          trading rules and payout conditions in one place.
+          Explore Funded Squad funded trading accounts, Instant Funding,
+          1-Step and 2-Step programs, account structures, trading rules,
+          drawdown limits, profit splits and payout conditions in one place.
         </p>
 
         <a
@@ -57,8 +58,8 @@ function FundedSquad() {
           <h3>Multiple Models</h3>
 
           <p>
-            Funded Squad offers different funding structures designed
-            for traders with different trading preferences.
+            Funded Squad offers different funded trading structures,
+            including Instant Funding, 1-Step and 2-Step programs.
           </p>
         </div>
 
@@ -68,8 +69,8 @@ function FundedSquad() {
           <h3>Multiple Sizes</h3>
 
           <p>
-            Available account sizes depend on the selected Funded
-            Squad program.
+            Available Funded Squad account sizes depend on the selected
+            funding program and account conditions.
           </p>
         </div>
 
@@ -79,8 +80,8 @@ function FundedSquad() {
           <h3>Up to 95%</h3>
 
           <p>
-            Profit sharing depends on the selected account and the
-            applicable program rules.
+            Funded Squad advertises profit sharing of up to 95%,
+            depending on the selected program and applicable rules.
           </p>
         </div>
 
@@ -90,8 +91,8 @@ function FundedSquad() {
           <h3>Flexible Options</h3>
 
           <p>
-            Different programs can have different trading conditions,
-            risk limits and payout requirements.
+            Different Funded Squad programs can have different trading
+            conditions, risk limits and payout requirements.
           </p>
         </div>
       </div>
@@ -99,7 +100,13 @@ function FundedSquad() {
       <div className="fundedsquad-plans">
         <span>FUNDED SQUAD MODELS</span>
 
-        <h2>Compare Funding Options</h2>
+        <h2>Compare Funded Squad Funding Options</h2>
+
+        <p>
+          Compare Funded Squad Instant Funding, 1-Step and 2-Step
+          programs based on evaluation structure, profit targets,
+          drawdown rules and payout conditions.
+        </p>
 
         <div className="squad-plan-cards">
           {plans.map((plan, index) => (
@@ -163,8 +170,9 @@ function FundedSquad() {
               <h3>Different Funding Options</h3>
 
               <p>
-                Explore different account structures instead of being
-                limited to a single evaluation model.
+                Funded Squad provides different account structures,
+                allowing traders to compare Instant Funding, 1-Step
+                and 2-Step evaluation models.
               </p>
             </div>
           </div>
@@ -176,8 +184,9 @@ function FundedSquad() {
               <h3>Multiple Account Sizes</h3>
 
               <p>
-                Choose an account size based on the program and funding
-                option that fits your trading plan.
+                Traders can explore different account sizes based on
+                the available Funded Squad funding program and their
+                preferred trading approach.
               </p>
             </div>
           </div>
@@ -190,7 +199,8 @@ function FundedSquad() {
 
               <p>
                 Eligible traders can receive a share of trading profits
-                according to the selected program's payout rules.
+                according to the selected Funded Squad program and its
+                applicable payout rules.
               </p>
             </div>
           </div>
@@ -202,8 +212,9 @@ function FundedSquad() {
               <h3>Risk-Based Trading</h3>
 
               <p>
-                Understanding daily loss, maximum loss and position
-                risk limits is essential before choosing an account.
+                Understanding daily drawdown, maximum loss, position
+                risk and payout requirements is essential before
+                choosing a Funded Squad account.
               </p>
             </div>
           </div>
@@ -213,15 +224,22 @@ function FundedSquad() {
       <div className="squad-payout-section">
         <span>PAYOUTS & RULES</span>
 
-        <h2>Important Things To Know</h2>
+        <h2>Funded Squad Payouts & Trading Rules</h2>
+
+        <p>
+          Understanding Funded Squad payout conditions and risk rules
+          is important before selecting a funded trading account.
+          Requirements can differ between Instant Funding, 1-Step and
+          2-Step programs.
+        </p>
 
         <div className="squad-payout-grid">
           <div>
-            <strong>Profit Split</strong>
+            <strong>Up to 95%</strong>
 
             <p>
-              Profit sharing can vary depending on the selected Funded
-              Squad program and applicable account conditions.
+              Profit sharing can reach up to 95% depending on the
+              selected Funded Squad program and applicable conditions.
             </p>
           </div>
 
@@ -229,8 +247,8 @@ function FundedSquad() {
             <strong>Risk Limits</strong>
 
             <p>
-              Daily drawdown and maximum loss rules can differ between
-              funding models.
+              Daily drawdown and maximum loss rules can vary between
+              different Funded Squad funding models.
             </p>
           </div>
 
@@ -239,7 +257,7 @@ function FundedSquad() {
 
             <p>
               Payout timing, minimum requirements and eligibility
-              conditions depend on the selected account.
+              conditions depend on the selected account and program.
             </p>
           </div>
 
@@ -247,8 +265,9 @@ function FundedSquad() {
             <strong>Trading Rules</strong>
 
             <p>
-              Always review the exact trading restrictions before
-              purchasing or trading a Funded Squad account.
+              Always review the exact trading restrictions, risk
+              limits and payout rules before purchasing or trading
+              a Funded Squad account.
             </p>
           </div>
         </div>
@@ -261,14 +280,67 @@ function FundedSquad() {
         </p>
       </div>
 
+      <div className="fundedsquad-faq">
+        <span>FUNDED SQUAD FAQ</span>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div className="faq-list">
+          <div>
+            <h3>What is Funded Squad?</h3>
+
+            <p>
+              Funded Squad is a proprietary trading firm offering
+              funded trading programs with different account
+              structures, including Instant Funding, 1-Step and
+              2-Step models.
+            </p>
+          </div>
+
+          <div>
+            <h3>What Funded Squad funding programs are available?</h3>
+
+            <p>
+              The listed funding options include Instant Funding,
+              1-Step and 2-Step programs. Available account sizes,
+              prices and conditions can change over time.
+            </p>
+          </div>
+
+          <div>
+            <h3>What is the Funded Squad profit split?</h3>
+
+            <p>
+              Funded Squad advertises profit sharing of up to 95%.
+              The exact profit split depends on the selected program
+              and applicable account conditions.
+            </p>
+          </div>
+
+          <div>
+            <h3>Can Funded Squad rules change?</h3>
+
+            <p>
+              Yes. Account sizes, prices, drawdown calculations,
+              payout requirements and other trading conditions can
+              change. Traders should verify the latest official terms
+              before purchasing an account.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="fundingpips-warning">
         <strong>⚠️ IMPORTANT BEFORE YOU BUY</strong>
 
         <p>
-          Prop firm accounts involve risk and are subject to specific
-          trading rules. Read the latest Funded Squad terms carefully
-          before purchasing an account. Nothing on this website
-          guarantees a challenge pass or trading profit.
+          Funded Squad rules, prices, available account sizes,
+          drawdown calculations, payout requirements and promotions
+          can change. This page is provided for comparison and
+          educational purposes. Prop firm accounts involve risk,
+          and nothing on this website guarantees a challenge pass
+          or trading profit. Always verify the latest official
+          Funded Squad terms before purchasing or trading an account.
         </p>
       </div>
 
@@ -282,8 +354,9 @@ function FundedSquad() {
         </h2>
 
         <p>
-          Compare the available funding options and choose the
-          structure that matches your trading approach.
+          Compare Funded Squad funding options, account structures,
+          trading rules and payout conditions, then choose the
+          program that matches your trading approach.
         </p>
 
         <a
