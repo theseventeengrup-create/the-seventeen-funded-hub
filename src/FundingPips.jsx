@@ -50,18 +50,20 @@ function FundingPips() {
   return (
     <section className="fundingpips-page">
 
-      {/* HEADER */}
+      {/* HEADER / SEO INTRO */}
 
       <div className="fundingpips-header">
         <span className="badge">FEATURED PROP FIRM</span>
 
         <h1>
-          Funding<span>Pips</span>
+          Funding<span>Pips</span> Prop Firm & Funded Trading Accounts
         </h1>
 
         <p>
-          Explore FundingPips funding models, account sizes, trading
-          objectives, loss limits and reward options in one place.
+          Explore FundingPips funded trading accounts, evaluation models,
+          account sizes, profit targets, daily loss limits, maximum loss
+          rules and reward options. Compare the available FundingPips
+          trading models in one place before choosing an account.
         </p>
 
         <a
@@ -72,6 +74,73 @@ function FundingPips() {
         >
           GET FUNDED →
         </a>
+      </div>
+
+      {/* SEO OVERVIEW */}
+
+      <div className="fundingpips-feature-section">
+
+        <div className="feature-heading">
+          <span>FUNDINGPIPS OVERVIEW</span>
+
+          <h2>
+            FundingPips
+            <br />
+            Funded Trading Explained.
+          </h2>
+        </div>
+
+        <div className="feature-points">
+
+          <div className="feature-point">
+            <div className="feature-icon">01</div>
+            <div>
+              <h3>Multiple Funding Models</h3>
+              <p>
+                FundingPips offers different trading account structures,
+                including one-phase, two-phase and instant funding models.
+                Each model has its own objectives and risk limits.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-point">
+            <div className="feature-icon">02</div>
+            <div>
+              <h3>Different Risk Rules</h3>
+              <p>
+                Daily loss limits and maximum loss conditions vary between
+                FundingPips models. Traders should understand these limits
+                before selecting an account.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-point">
+            <div className="feature-icon">03</div>
+            <div>
+              <h3>Different Account Sizes</h3>
+              <p>
+                Available account sizes depend on the selected FundingPips
+                model, with options ranging from smaller funded accounts
+                to larger allocations.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-point">
+            <div className="feature-icon">04</div>
+            <div>
+              <h3>Reward Structures</h3>
+              <p>
+                Reward percentages and payout cycles can differ depending
+                on the selected funding model and applicable conditions.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
       </div>
 
       {/* QUICK STATS */}
@@ -118,7 +187,14 @@ function FundingPips() {
 
         <span>FUNDINGPIPS MODELS</span>
 
-        <h2>Compare Funding Models</h2>
+        <h2>Compare FundingPips Funding Models</h2>
+
+        <p>
+          Compare the main FundingPips funded account models by profit
+          target, daily loss limit, maximum loss, reward structure and
+          available account size. The right model depends on your trading
+          style and risk management approach.
+        </p>
 
         <div className="funding-model-cards">
 
@@ -237,7 +313,7 @@ function FundingPips() {
 
         <span>REWARD METHODS</span>
 
-        <h2>How Can You Receive Rewards?</h2>
+        <h2>How Can You Receive FundingPips Rewards?</h2>
 
         <div className="reward-grid">
 
@@ -271,6 +347,77 @@ function FundingPips() {
 
       </div>
 
+      {/* FAQ / SEO CONTENT */}
+
+      <div className="fundingpips-feature-section">
+
+        <div className="feature-heading">
+          <span>FUNDINGPIPS FAQ</span>
+
+          <h2>
+            Common Questions
+            <br />
+            About FundingPips.
+          </h2>
+        </div>
+
+        <div className="feature-points">
+
+          <div className="feature-point">
+            <div className="feature-icon">01</div>
+            <div>
+              <h3>What is FundingPips?</h3>
+              <p>
+                FundingPips is a prop trading firm offering different
+                funded trading account models. Traders can compare
+                evaluation-based and instant funding structures depending
+                on the available program.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-point">
+            <div className="feature-icon">02</div>
+            <div>
+              <h3>What FundingPips account sizes are available?</h3>
+              <p>
+                The available account size depends on the selected model.
+                The models shown on this page currently range from $5K
+                accounts up to $200K accounts.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-point">
+            <div className="feature-icon">03</div>
+            <div>
+              <h3>Which FundingPips model is best?</h3>
+              <p>
+                There is no single best model for every trader. Your choice
+                should depend on your preferred evaluation structure,
+                profit target, daily loss limit, maximum loss and reward
+                cycle.
+              </p>
+            </div>
+          </div>
+
+          <div className="feature-point">
+            <div className="feature-icon">04</div>
+            <div>
+              <h3>Can FundingPips rules change?</h3>
+              <p>
+                Yes. Prop firm programs, trading rules, account conditions,
+                reward structures and available models can change. Always
+                check the latest official FundingPips terms before buying
+                an account.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
       {/* IMPORTANT */}
 
       <div className="fundingpips-warning">
@@ -280,8 +427,9 @@ function FundingPips() {
         <p>
           FundingPips uses a simulated trading environment. Rules,
           targets, loss limits, reward conditions and available models
-          can change. Always verify the latest official terms before
-          purchasing an account.
+          can change. The information on THE SEVENTEEN FUNDED HUB is
+          provided for comparison and educational purposes. Always verify
+          the latest official FundingPips terms before purchasing an account.
         </p>
 
       </div>
@@ -299,8 +447,8 @@ function FundingPips() {
         </h2>
 
         <p>
-          Review the current FundingPips options and choose the model
-          that fits your trading style.
+          Compare the current FundingPips options and choose the model
+          that fits your trading style, risk tolerance and trading goals.
         </p>
 
         <a
