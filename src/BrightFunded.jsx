@@ -28,16 +28,21 @@ function BrightFunded() {
 
   return (
     <section className="brightfunded-page">
+
+      {/* HEADER / SEO INTRO */}
+
       <div className="brightfunded-header">
         <span className="badge">FEATURED PROP FIRM</span>
 
         <h1>
-          Bright<span>Funded</span>
+          Bright<span>Funded</span> Prop Firm & Funded Trading Accounts
         </h1>
 
         <p>
-          Explore BrightFunded evaluation plans, trading objectives,
-          drawdown rules and reward options in one place.
+          Explore BrightFunded funded trading accounts, evaluation plans,
+          profit targets, daily drawdown limits, maximum drawdown rules,
+          profit splits and payout options. Compare the available
+          BrightFunded plans in one place before choosing an account.
         </p>
 
         <a
@@ -50,11 +55,91 @@ function BrightFunded() {
         </a>
       </div>
 
+      {/* SEO OVERVIEW */}
+
+      <div className="brightfunded-feature-section">
+        <div className="bright-feature-heading">
+          <span>BRIGHTFUNDED OVERVIEW</span>
+
+          <h2>
+            BrightFunded
+            <br />
+            Funded Trading Explained.
+          </h2>
+        </div>
+
+        <div className="bright-feature-points">
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">01</div>
+
+            <div>
+              <h3>Multiple Evaluation Plans</h3>
+
+              <p>
+                BrightFunded offers different evaluation structures,
+                including 1-Step and 2-Step funded trading plans. Each
+                plan has its own profit target and drawdown conditions.
+              </p>
+            </div>
+          </div>
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">02</div>
+
+            <div>
+              <h3>Different Drawdown Rules</h3>
+
+              <p>
+                Daily drawdown and maximum drawdown limits vary between
+                BrightFunded plans. Understanding these risk limits is
+                important before selecting a funded account.
+              </p>
+            </div>
+          </div>
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">03</div>
+
+            <div>
+              <h3>80%+ Profit Split</h3>
+
+              <p>
+                BrightFunded states a default 80/20 funded reward split,
+                with higher profit-split options available through
+                eligible add-ons or scaling conditions.
+              </p>
+            </div>
+          </div>
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">04</div>
+
+            <div>
+              <h3>Scaling Opportunities</h3>
+
+              <p>
+                Eligible traders may qualify for additional capital
+                through BrightFunded's applicable scaling conditions.
+                Scaling requirements can depend on the current program
+                rules.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {/* QUICK STATS */}
+
       <div className="brightfunded-grid">
+
         <div className="info-card">
           <span>AVAILABLE PLANS</span>
           <h3>3 Plans</h3>
-          <p>2-Step Bright, 2-Step Classic and 1-Step.</p>
+          <p>
+            2-Step Bright, 2-Step Classic and 1-Step.
+          </p>
         </div>
 
         <div className="info-card">
@@ -78,18 +163,32 @@ function BrightFunded() {
         <div className="info-card">
           <span>PAYOUT METHODS</span>
           <h3>2 Options</h3>
-          <p>USDC via ERC-20 and Bank Transfer.</p>
+          <p>
+            USDC via ERC-20 and Bank Transfer.
+          </p>
         </div>
+
       </div>
+
+      {/* PLANS */}
 
       <div className="brightfunded-plans">
         <span>BRIGHTFUNDED PLANS</span>
 
-        <h2>Compare Evaluation Plans</h2>
+        <h2>Compare BrightFunded Evaluation Plans</h2>
+
+        <p>
+          Compare BrightFunded funded trading plans by profit target,
+          daily drawdown, maximum drawdown and minimum trading days.
+          Choosing a plan should depend on your trading strategy, risk
+          management and preferred evaluation structure.
+        </p>
 
         <div className="bright-plan-cards">
+
           {plans.map((plan, index) => (
             <div className="bright-plan-card" key={plan.name}>
+
               <div className="bright-plan-number">
                 0{index + 1}
               </div>
@@ -100,6 +199,7 @@ function BrightFunded() {
               </div>
 
               <div className="bright-plan-data">
+
                 <div>
                   <span>PROFIT TARGET</span>
                   <strong>{plan.target}</strong>
@@ -119,13 +219,18 @@ function BrightFunded() {
                   <span>MIN TRADING DAYS</span>
                   <strong>{plan.days}</strong>
                 </div>
+
               </div>
             </div>
           ))}
+
         </div>
       </div>
 
+      {/* WHY BRIGHTFUNDED */}
+
       <div className="brightfunded-feature-section">
+
         <div className="bright-feature-heading">
           <span>WHY LOOK AT BRIGHTFUNDED?</span>
 
@@ -137,6 +242,7 @@ function BrightFunded() {
         </div>
 
         <div className="bright-feature-points">
+
           <div className="bright-feature-point">
             <div className="feature-icon">01</div>
 
@@ -188,17 +294,22 @@ function BrightFunded() {
               </p>
             </div>
           </div>
+
         </div>
       </div>
+
+      {/* PAYOUTS */}
 
       <div className="bright-payout-section">
         <span>PAYOUTS</span>
 
-        <h2>Reward Information</h2>
+        <h2>BrightFunded Payout & Reward Information</h2>
 
         <div className="bright-payout-grid">
+
           <div>
             <strong>80% Default Split</strong>
+
             <p>
               The standard funded reward split is 80/20.
             </p>
@@ -206,6 +317,7 @@ function BrightFunded() {
 
           <div>
             <strong>90% Add-On</strong>
+
             <p>
               A 90% profit split add-on is available where offered.
             </p>
@@ -213,6 +325,7 @@ function BrightFunded() {
 
           <div>
             <strong>Bi-Weekly</strong>
+
             <p>
               After the first reward cycle, bi-weekly requests are
               available under the applicable conditions.
@@ -221,11 +334,13 @@ function BrightFunded() {
 
           <div>
             <strong>USDC / Bank</strong>
+
             <p>
               Rewards can be processed through USDC ERC-20 or bank
               transfer.
             </p>
           </div>
+
         </div>
 
         <p className="bright-payout-note">
@@ -233,19 +348,107 @@ function BrightFunded() {
           30 days after the first funded-account trade; subsequent
           requests can be made bi-weekly under the applicable rules.
         </p>
+
       </div>
 
+      {/* FAQ / SEO CONTENT */}
+
+      <div className="brightfunded-feature-section">
+
+        <div className="bright-feature-heading">
+          <span>BRIGHTFUNDED FAQ</span>
+
+          <h2>
+            Common Questions
+            <br />
+            About BrightFunded.
+          </h2>
+        </div>
+
+        <div className="bright-feature-points">
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">01</div>
+
+            <div>
+              <h3>What is BrightFunded?</h3>
+
+              <p>
+                BrightFunded is a prop trading firm offering funded
+                trading account programs with different evaluation
+                structures. Traders can compare 1-Step and 2-Step plans
+                based on their preferred risk and trading approach.
+              </p>
+            </div>
+          </div>
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">02</div>
+
+            <div>
+              <h3>What BrightFunded plans are available?</h3>
+
+              <p>
+                The plans shown on this page include 2-Step Bright,
+                2-Step Classic and 1-Step. Each plan has different
+                profit targets and drawdown conditions.
+              </p>
+            </div>
+          </div>
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">03</div>
+
+            <div>
+              <h3>What is the BrightFunded profit split?</h3>
+
+              <p>
+                BrightFunded states an 80% default funded reward split.
+                Higher profit-split options may be available through
+                eligible add-ons or applicable conditions.
+              </p>
+            </div>
+          </div>
+
+          <div className="bright-feature-point">
+            <div className="feature-icon">04</div>
+
+            <div>
+              <h3>Can BrightFunded rules change?</h3>
+
+              <p>
+                Yes. Prop firm plans, pricing, drawdown calculations,
+                payout conditions and promotions can change. Always
+                verify the latest official BrightFunded terms before
+                purchasing an account.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      {/* IMPORTANT */}
+
       <div className="fundingpips-warning">
+
         <strong>⚠️ IMPORTANT BEFORE YOU BUY</strong>
 
         <p>
           BrightFunded rules, pricing, available plans, drawdown
           calculations, payout conditions and promotions can change.
-          Always verify the latest official terms before purchasing.
+          The information on THE SEVENTEEN FUNDED HUB is provided for
+          comparison and educational purposes. Always verify the latest
+          official terms before purchasing.
         </p>
+
       </div>
 
+      {/* CTA */}
+
       <div className="brightfunded-final-cta">
+
         <span>READY TO EXPLORE?</span>
 
         <h2>
@@ -255,8 +458,9 @@ function BrightFunded() {
         </h2>
 
         <p>
-          Compare the current plans and choose the evaluation structure
-          that best matches your trading style.
+          Compare the current BrightFunded plans and choose the
+          evaluation structure that best matches your trading style,
+          risk tolerance and trading goals.
         </p>
 
         <a
@@ -267,7 +471,9 @@ function BrightFunded() {
         >
           VISIT BRIGHTFUNDED →
         </a>
+
       </div>
+
     </section>
   );
 }
